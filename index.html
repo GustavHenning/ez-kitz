@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A compact rail guide for reaching Kitzbühel from Munich, Salzburg, Innsbruck, or Vienna airport."
+    />
+    <title>Travel to Kitzbühel by train</title>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Language">
+        <a class="brand" href="/" aria-label="Travel to Kitzbühel">Kitzbühel</a>
+        <div class="locale-switcher">
+          <button type="button" data-locale="en" aria-label="English">
+            <span class="flag flag-gb" aria-hidden="true"></span>
+            <span class="locale-label">EN</span>
+          </button>
+          <button type="button" data-locale="de" aria-label="Deutsch">
+            <span class="flag flag-de" aria-hidden="true"></span>
+            <span class="locale-label">DE</span>
+          </button>
+          <button type="button" data-locale="sv" aria-label="Svenska">
+            <span class="flag flag-se" aria-hidden="true"></span>
+            <span class="locale-label">SV</span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p data-copy="hero-kicker" class="hero-kicker"></p>
+        <h1 data-copy="hero-title"></h1>
+        <p data-copy="hero-body" class="hero-body"></p>
+      </div>
+    </header>
+
+    <main>
+      <div class="train-divider" aria-hidden="true">
+        <img src="/assets/train-divider-austrian.png" alt="" />
+      </div>
+
+      <section class="selector-section" aria-labelledby="selector-heading">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker" data-copy="selector-kicker"></p>
+            <h2 id="selector-heading" data-copy="selector-heading"></h2>
+            <p data-copy="selector-body"></p>
+          </div>
+          <div id="airport-selector" class="airport-grid" aria-label="Arrival airports"></div>
+        </div>
+      </section>
+
+      <section id="result-shell" class="result-section" hidden>
+        <div class="section-inner">
+          <div id="result"></div>
+          <button id="reset-selection" class="text-button" type="button" data-copy="reset-selection"></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-copy="footer-note"></p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
