@@ -17,7 +17,7 @@ describe("season theme selection", () => {
     const theme = getSeasonTheme(new Date("2026-07-15T12:00:00Z"));
 
     expect(theme.id).toBe("summer");
-    expect(theme.heroImage).toBe("/assets/hero-kitz-summer.png");
+    expect(theme.heroImage).toBe("/assets/hero-kitz-summer.webp");
     expect(theme.documentClass).toBe("season-summer");
   });
 });

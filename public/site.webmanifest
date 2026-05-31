@@ -1,0 +1,28 @@
+{
+  "name": "Kitzbühel rail guide",
+  "short_name": "Kitzbühel",
+  "description": "A compact rail guide for reaching Kitzbühel from Munich, Salzburg, Innsbruck, or Vienna airport.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6efe3",
+  "theme_color": "#244536",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

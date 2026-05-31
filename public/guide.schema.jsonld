@@ -1,0 +1,508 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://ez-kitz.vercel.app/guide.schema.jsonld",
+  "name": "Kitzbühel rail guide",
+  "url": "https://ez-kitz.vercel.app/",
+  "dateModified": "2026-05-31",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Munich Airport to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/?airport=munich",
+      "item": {
+        "@type": "Trip",
+        "name": "MUC airport -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "MUC airport",
+              "url": "https://www.google.com/maps/search/?api=1&query=Munich%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "München Ost",
+              "url": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20station"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kufstein",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Salzburg Airport to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/?airport=salzburg",
+      "item": {
+        "@type": "Trip",
+        "name": "Salzburg Airport -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Salzburg Airport",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Salzburg Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Innsbruck Airport to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/?airport=innsbruck",
+      "item": {
+        "@type": "Trip",
+        "name": "Innsbruck Airport -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Innsbruck Airport",
+              "url": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Innsbruck Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Vienna Airport to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/?airport=vienna",
+      "item": {
+        "@type": "Trip",
+        "name": "Vienna Airport -> Wien Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Vienna Airport",
+              "url": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Wien Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Flughafen München to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/de/?airport=munich",
+      "item": {
+        "@type": "Trip",
+        "name": "Flughafen MUC -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Flughafen MUC",
+              "url": "https://www.google.com/maps/search/?api=1&query=Flughafen%20M%C3%BCnchen"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "München Ost",
+              "url": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20Bahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kufstein",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "de"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Flughafen Salzburg to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/de/?airport=salzburg",
+      "item": {
+        "@type": "Trip",
+        "name": "Flughafen Salzburg -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Flughafen Salzburg",
+              "url": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Salzburg"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Salzburg Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "de"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flughafen Innsbruck to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/de/?airport=innsbruck",
+      "item": {
+        "@type": "Trip",
+        "name": "Flughafen Innsbruck -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Flughafen Innsbruck",
+              "url": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Innsbruck"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Innsbruck Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "de"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Flughafen Wien to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/de/?airport=vienna",
+      "item": {
+        "@type": "Trip",
+        "name": "Flughafen Wien -> Wien Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Flughafen Wien",
+              "url": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Wien-Schwechat"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Wien Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "de"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Münchens flygplats to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/sv/?airport=munich",
+      "item": {
+        "@type": "Trip",
+        "name": "MUC flygplats -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "MUC flygplats",
+              "url": "https://www.google.com/maps/search/?api=1&query=Munich%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "München Ost",
+              "url": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20station"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kufstein",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "sv"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Salzburgs flygplats to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/sv/?airport=salzburg",
+      "item": {
+        "@type": "Trip",
+        "name": "Salzburgs flygplats -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Salzburgs flygplats",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Salzburg Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "sv"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Innsbrucks flygplats to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/sv/?airport=innsbruck",
+      "item": {
+        "@type": "Trip",
+        "name": "Innsbrucks flygplats -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Innsbrucks flygplats",
+              "url": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Innsbruck Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "sv"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Wiens flygplats to Kitzbühel",
+      "url": "https://ez-kitz.vercel.app/sv/?airport=vienna",
+      "item": {
+        "@type": "Trip",
+        "name": "Wiens flygplats -> Wien Hbf -> Wörgl -> Kitzbühel",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Wiens flygplats",
+              "url": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Wien Hbf",
+              "url": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wörgl",
+              "url": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Kitzbühel",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+            }
+          ]
+        },
+        "inLanguage": "sv"
+      }
+    }
+  ]
+}

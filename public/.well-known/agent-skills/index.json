@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "rail-guide",
+      "type": "skill-md",
+      "description": "Use this skill for source-of-truth rail guidance from nearby airports to Kitzbühel.",
+      "url": "https://ez-kitz.vercel.app/.well-known/agent-skills/rail-guide/SKILL.md",
+      "digest": "sha256:c5d7565446c93fdc4f13f1e2ae09f3e2162cd032ef89ec02c31eb9cb7ca3be67"
+    }
+  ]
+}
