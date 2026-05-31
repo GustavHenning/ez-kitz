@@ -1,0 +1,721 @@
+{
+  "name": "Kitzbühel rail guide",
+  "url": "https://ez-kitz.vercel.app",
+  "updated": "2026-05-31",
+  "locales": {
+    "en": {
+      "url": "https://ez-kitz.vercel.app/",
+      "title": "Travel to Kitzbühel by train",
+      "description": "A compact rail guide for reaching Kitzbühel from Munich, Salzburg, Innsbruck, or Vienna airport.",
+      "airports": {
+        "munich": {
+          "airportId": "munich",
+          "airportName": "Munich Airport",
+          "city": "MUC",
+          "apps": {
+            "primary": [
+              {
+                "name": "DB Navigator",
+                "brand": "db",
+                "mark": "DB",
+                "href": "https://int.bahn.de/en/booking-information/db-navigator",
+                "purpose": "Usually the first place to compare and book Munich-to-Kitzbühel trips."
+              },
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Useful for checking the Austrian leg and comparing cross-border fares."
+              }
+            ],
+            "secondary": [],
+            "note": "Download both apps and compare prices. Both DB Navigator and ÖBB can usually book the whole journey, but DB Navigator often tends to be cheaper for Germany-to-Austria trips."
+          },
+          "route": {
+            "title": "MUC airport -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "MUC airport",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20Airport"
+              },
+              {
+                "label": "München Ost",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20station"
+              },
+              {
+                "label": "Kufstein",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Treat this as the common route shape: not every connection shows Kufstein and Wörgl as transfer stops, so follow the app itinerary."
+          },
+          "ticketTip": {
+            "eyebrow": "Money tip",
+            "title": "Bayern Ticket or Deutschlandticket can change the math.",
+            "body": "For two or more people, check whether a Bayern Ticket plus a separate Kufstein-to-Kitzbühel leg is worth it. This route can also be a good choice for travelers with a Deutschlandticket; the Austrian leg still needs checking and booking as required."
+          },
+          "connectionWatch": {
+            "eyebrow": "Delays",
+            "title": "Expect German delays and check later options.",
+            "body": "German trains are frequently delayed. You can usually take later connections, but check that they exist, especially when arriving late or returning to the airport for a flight. Also watch for Wörgl transfers under 10 minutes if you travel with skis."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flights",
+            "title": "Leave daylight and buffer for the rail leg.",
+            "body": "If possible, book arrival flights that land before roughly 15:00-16:00 and return flights after 14:00. The train ride to or from the airport takes several hours, so a safety margin helps with delays, luggage, and airport procedures."
+          }
+        },
+        "salzburg": {
+          "airportId": "salzburg",
+          "airportName": "Salzburg Airport",
+          "city": "SZG",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Best primary app for Salzburg-to-Kitzbühel planning and booking."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB is the main app for this Austrian-led journey. Use it for the airport-to-Hbf connection and onward rail options."
+          },
+          "route": {
+            "title": "Salzburg Airport -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Salzburg Airport",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Airport"
+              },
+              {
+                "label": "Salzburg Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "The rail route is often via Wörgl, though the exact transfer pattern depends on the departure you choose."
+          },
+          "ticketTip": {
+            "eyebrow": "Bus option",
+            "title": "There is also a public bus route from the airport.",
+            "body": "Salzburg Airport lists Postbus 260 from the airport toward Lofer, then bus 4012 onward via St. Johann i. Tirol to Kitzbühel. Treat it as a fallback or scenic option and check departures carefully, because bus connections can be less frequent than trains."
+          },
+          "connectionWatch": {
+            "eyebrow": "Transfers",
+            "title": "Check short connections before you commit.",
+            "body": "Some itineraries give you less than 10 minutes between trains. In Wörgl this can mean moving quickly between connections, especially with skis or bulky luggage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flights",
+            "title": "Leave daylight and buffer for the rail leg.",
+            "body": "If possible, book arrival flights that land before roughly 15:00-16:00 and return flights after 14:00. The train ride to or from the airport takes several hours, so a safety margin helps with delays, luggage, and airport procedures."
+          }
+        },
+        "innsbruck": {
+          "airportId": "innsbruck",
+          "airportName": "Innsbruck Airport",
+          "city": "INN",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Best primary app for Innsbruck-to-Kitzbühel planning and booking."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB is the main app for the shortest rail approach. Check bus or local transfer timing into Innsbruck Hbf before choosing a train."
+          },
+          "route": {
+            "title": "Innsbruck Airport -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Innsbruck Airport",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Airport"
+              },
+              {
+                "label": "Innsbruck Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "The train portion often changes around Wörgl, but some departures may show a different transfer pattern."
+          },
+          "ticketTip": {
+            "eyebrow": "Money tip",
+            "title": "Closest airport usually means fewer moving parts.",
+            "body": "Innsbruck is often the easiest arrival if flight times work. Still check whether a short airport-to-Hbf transfer leaves enough time with luggage."
+          },
+          "connectionWatch": {
+            "eyebrow": "Transfers",
+            "title": "Check short connections before you commit.",
+            "body": "Some itineraries give you less than 10 minutes between trains. In Wörgl this can mean moving quickly between connections, especially with skis or bulky luggage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flights",
+            "title": "Leave daylight and buffer for the rail leg.",
+            "body": "If possible, book arrival flights that land before roughly 15:00-16:00 and return flights after 14:00. The train ride to or from the airport takes several hours, so a safety margin helps with delays, luggage, and airport procedures."
+          }
+        },
+        "vienna": {
+          "airportId": "vienna",
+          "airportName": "Vienna Airport",
+          "city": "VIE",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Best primary app for Vienna-to-Kitzbühel planning and booking."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB is the main app for the westbound Railjet corridor from Vienna Airport or Wien Hbf toward Tirol."
+          },
+          "route": {
+            "title": "Vienna Airport -> Wien Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Vienna Airport",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport"
+              },
+              {
+                "label": "Wien Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Plan for a longer westbound rail journey, usually on the Railjet corridor with a transfer toward Kitzbühel around Wörgl."
+          },
+          "ticketTip": {
+            "eyebrow": "Money tip",
+            "title": "Book early if Vienna is your best flight option.",
+            "body": "Vienna can work well when flights are better, but the rail day is longer. Compare earlier departures and leave more buffer than for Innsbruck or Salzburg."
+          },
+          "connectionWatch": {
+            "eyebrow": "Transfers",
+            "title": "Check short connections before you commit.",
+            "body": "Some itineraries give you less than 10 minutes between trains. In Wörgl this can mean moving quickly between connections, especially with skis or bulky luggage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flights",
+            "title": "Leave daylight and buffer for the rail leg.",
+            "body": "If possible, book arrival flights that land before roughly 15:00-16:00 and return flights after 14:00. The train ride to or from the airport takes several hours, so a safety margin helps with delays, luggage, and airport procedures."
+          }
+        }
+      }
+    },
+    "de": {
+      "url": "https://ez-kitz.vercel.app/de/",
+      "title": "Mit dem Zug nach Kitzbühel",
+      "description": "Ein kompakter Bahn-Guide nach Kitzbühel ab den Flughäfen München, Salzburg, Innsbruck und Wien.",
+      "airports": {
+        "munich": {
+          "airportId": "munich",
+          "airportName": "Flughafen München",
+          "city": "MUC",
+          "apps": {
+            "primary": [
+              {
+                "name": "DB Navigator",
+                "brand": "db",
+                "mark": "DB",
+                "href": "https://int.bahn.de/en/booking-information/db-navigator",
+                "purpose": "Meist der erste Preis- und Buchungsvergleich für München nach Kitzbühel."
+              },
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Hilfreich für den österreichischen Abschnitt und den Tarifvergleich."
+              }
+            ],
+            "secondary": [],
+            "note": "Beide Apps herunterladen und Preise vergleichen. DB Navigator und ÖBB können meist die ganze Strecke buchen, aber bei Deutschland-nach-Österreich-Reisen ist DB Navigator oft günstiger."
+          },
+          "route": {
+            "title": "Flughafen MUC -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Flughafen MUC",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flughafen%20M%C3%BCnchen"
+              },
+              {
+                "label": "München Ost",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20Bahnhof"
+              },
+              {
+                "label": "Kufstein",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Das ist die typische Routenform. Nicht jede Verbindung zeigt Kufstein und Wörgl als Umstieg, deshalb der App-Verbindung folgen."
+          },
+          "ticketTip": {
+            "eyebrow": "Spartipp",
+            "title": "Bayern Ticket oder Deutschlandticket können sich lohnen.",
+            "body": "Ab zwei Personen prüfen, ob Bayern Ticket plus separates Ticket von Kufstein nach Kitzbühel günstiger ist. Für Reisende mit Deutschlandticket ist diese Route ebenfalls interessant; der österreichische Abschnitt muss trotzdem geprüft und ggf. gebucht werden."
+          },
+          "connectionWatch": {
+            "eyebrow": "Verspätungen",
+            "title": "Mit Verspätungen in Deutschland rechnen.",
+            "body": "Deutsche Züge sind häufig verspätet. Meist kann man spätere Anschlüsse nehmen, aber prüfe, ob es sie gibt, besonders bei später Ankunft oder Rückfahrt zum Flughafen. In Wörgl auch auf Umstiege unter 10 Minuten achten, vor allem mit Skiern."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flüge",
+            "title": "Plane Tageslicht und Puffer für die Bahnfahrt ein.",
+            "body": "Wenn möglich, Ankunftsflüge vor ungefähr 15:00-16:00 und Rückflüge nach 14:00 buchen. Die Zugfahrt zum oder vom Flughafen dauert mehrere Stunden; ein Puffer hilft bei Verspätungen, Gepäck und Abläufen am Flughafen."
+          }
+        },
+        "salzburg": {
+          "airportId": "salzburg",
+          "airportName": "Flughafen Salzburg",
+          "city": "SZG",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Beste Haupt-App für Salzburg nach Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB ist die wichtigste App für diese Reise innerhalb Österreichs. Dort lassen sich die Verbindung zum Hbf und die Weiterfahrt gut prüfen."
+          },
+          "route": {
+            "title": "Flughafen Salzburg -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Flughafen Salzburg",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Salzburg"
+              },
+              {
+                "label": "Salzburg Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Die Bahnstrecke läuft oft über Wörgl. Die genaue Umstiegsfolge hängt von der gewählten Verbindung ab."
+          },
+          "ticketTip": {
+            "eyebrow": "Bus-Option",
+            "title": "Es gibt auch eine öffentliche Busroute ab dem Flughafen.",
+            "body": "Der Flughafen Salzburg nennt Postbus 260 vom Flughafen Richtung Lofer und danach Bus 4012 weiter über St. Johann i. Tirol nach Kitzbühel. Als Alternative oder landschaftlich schöne Option prüfen, aber Abfahrten genau kontrollieren, weil Busverbindungen seltener sein können als Züge."
+          },
+          "connectionWatch": {
+            "eyebrow": "Umstieg",
+            "title": "Prüfe knappe Umstiege vor der Buchung.",
+            "body": "Manche Verbindungen haben weniger als 10 Minuten Umstiegszeit. In Wörgl kann das bedeuten, dass man mit Skiern oder großem Gepäck zügig zum nächsten Zug muss."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flüge",
+            "title": "Plane Tageslicht und Puffer für die Bahnfahrt ein.",
+            "body": "Wenn möglich, Ankunftsflüge vor ungefähr 15:00-16:00 und Rückflüge nach 14:00 buchen. Die Zugfahrt zum oder vom Flughafen dauert mehrere Stunden; ein Puffer hilft bei Verspätungen, Gepäck und Abläufen am Flughafen."
+          }
+        },
+        "innsbruck": {
+          "airportId": "innsbruck",
+          "airportName": "Flughafen Innsbruck",
+          "city": "INN",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Beste Haupt-App für Innsbruck nach Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB ist die wichtigste App für die kürzeste Anreise. Prüfe vorher den Bus oder lokalen Transfer zum Innsbruck Hbf."
+          },
+          "route": {
+            "title": "Flughafen Innsbruck -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Flughafen Innsbruck",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Innsbruck"
+              },
+              {
+                "label": "Innsbruck Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Der Bahnabschnitt wechselt oft rund um Wörgl. Manche Verbindungen zeigen aber ein anderes Umstiegsmuster."
+          },
+          "ticketTip": {
+            "eyebrow": "Spartipp",
+            "title": "Der nächste Flughafen hat meist weniger Reibung.",
+            "body": "Innsbruck ist oft am einfachsten, wenn die Flugzeiten passen. Trotzdem prüfen, ob der Transfer zum Hbf mit Gepäck genug Zeit lässt."
+          },
+          "connectionWatch": {
+            "eyebrow": "Umstieg",
+            "title": "Prüfe knappe Umstiege vor der Buchung.",
+            "body": "Manche Verbindungen haben weniger als 10 Minuten Umstiegszeit. In Wörgl kann das bedeuten, dass man mit Skiern oder großem Gepäck zügig zum nächsten Zug muss."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flüge",
+            "title": "Plane Tageslicht und Puffer für die Bahnfahrt ein.",
+            "body": "Wenn möglich, Ankunftsflüge vor ungefähr 15:00-16:00 und Rückflüge nach 14:00 buchen. Die Zugfahrt zum oder vom Flughafen dauert mehrere Stunden; ein Puffer hilft bei Verspätungen, Gepäck und Abläufen am Flughafen."
+          }
+        },
+        "vienna": {
+          "airportId": "vienna",
+          "airportName": "Flughafen Wien",
+          "city": "VIE",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Beste Haupt-App für Wien nach Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB ist die wichtigste App für die westliche Railjet-Achse vom Flughafen Wien oder Wien Hbf Richtung Tirol."
+          },
+          "route": {
+            "title": "Flughafen Wien -> Wien Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Flughafen Wien",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flughafen%20Wien-Schwechat"
+              },
+              {
+                "label": "Wien Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Mit einer längeren westwärts führenden Bahnfahrt rechnen, meist per Railjet und mit Umstieg Richtung Kitzbühel rund um Wörgl."
+          },
+          "ticketTip": {
+            "eyebrow": "Spartipp",
+            "title": "Früh buchen, wenn Wien die beste Flugoption ist.",
+            "body": "Wien funktioniert gut bei besseren Flugzeiten, aber die Bahnfahrt ist länger. Frühere Abfahrten vergleichen und mehr Puffer einplanen als bei Innsbruck oder Salzburg."
+          },
+          "connectionWatch": {
+            "eyebrow": "Umstieg",
+            "title": "Prüfe knappe Umstiege vor der Buchung.",
+            "body": "Manche Verbindungen haben weniger als 10 Minuten Umstiegszeit. In Wörgl kann das bedeuten, dass man mit Skiern oder großem Gepäck zügig zum nächsten Zug muss."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flüge",
+            "title": "Plane Tageslicht und Puffer für die Bahnfahrt ein.",
+            "body": "Wenn möglich, Ankunftsflüge vor ungefähr 15:00-16:00 und Rückflüge nach 14:00 buchen. Die Zugfahrt zum oder vom Flughafen dauert mehrere Stunden; ein Puffer hilft bei Verspätungen, Gepäck und Abläufen am Flughafen."
+          }
+        }
+      }
+    },
+    "sv": {
+      "url": "https://ez-kitz.vercel.app/sv/",
+      "title": "Tåg till Kitzbühel",
+      "description": "En kompakt tågguide till Kitzbühel från flygplatserna München, Salzburg, Innsbruck och Wien.",
+      "airports": {
+        "munich": {
+          "airportId": "munich",
+          "airportName": "Münchens flygplats",
+          "city": "MUC",
+          "apps": {
+            "primary": [
+              {
+                "name": "DB Navigator",
+                "brand": "db",
+                "mark": "DB",
+                "href": "https://int.bahn.de/en/booking-information/db-navigator",
+                "purpose": "Ofta bästa första appen för att jämföra och boka München till Kitzbühel."
+              },
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Bra för den österrikiska delen och för att jämföra gränsöverskridande priser."
+              }
+            ],
+            "secondary": [],
+            "note": "Ladda ner båda apparna och jämför priser. Både DB Navigator och ÖBB kan oftast boka hela resan, men DB Navigator brukar vara billigare för resor från Tyskland till Österrike."
+          },
+          "route": {
+            "title": "MUC flygplats -> München Ost -> Kufstein -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "MUC flygplats",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20Airport"
+              },
+              {
+                "label": "München Ost",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Ost%20station"
+              },
+              {
+                "label": "Kufstein",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kufstein%20Bahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Se detta som en vanlig ruttform. Alla förbindelser visar inte Kufstein och Wörgl som byten, så följ appens resplan."
+          },
+          "ticketTip": {
+            "eyebrow": "Spara pengar",
+            "title": "Bayern Ticket eller Deutschlandticket kan ändra priset.",
+            "body": "Om ni är minst två personer, kontrollera om Bayern Ticket plus separat biljett från Kufstein till Kitzbühel lönar sig. Rutten kan också passa den som redan har Deutschlandticket; den österrikiska delen måste ändå kontrolleras och bokas vid behov."
+          },
+          "connectionWatch": {
+            "eyebrow": "Förseningar",
+            "title": "Räkna med tyska förseningar och kontrollera senare tåg.",
+            "body": "Tyska tåg är ofta försenade. Man kan oftast ta senare anslutningar, men kontrollera att de finns, särskilt vid sen ankomst eller när ni ska tillbaka till flygplatsen. I Wörgl kan byten under 10 minuter vara stressiga med skidor."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flyg",
+            "title": "Lämna dagsljus och marginal för tågresan.",
+            "body": "Boka om möjligt ankomstflyg som landar före ungefär 15:00-16:00 och hemresor efter 14:00. Tågresan till eller från flygplatsen tar flera timmar, så marginal behövs för förseningar, bagage och flygplatsrutiner."
+          }
+        },
+        "salzburg": {
+          "airportId": "salzburg",
+          "airportName": "Salzburgs flygplats",
+          "city": "SZG",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Bästa huvudappen för Salzburg till Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB är huvudappen för den här österrikiska resan. Använd den för anslutningen till Hbf och vidare tåg mot Kitzbühel."
+          },
+          "route": {
+            "title": "Salzburgs flygplats -> Salzburg Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Salzburgs flygplats",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Airport"
+              },
+              {
+                "label": "Salzburg Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Tågresan går ofta via Wörgl, men exakt byte beror på avgången ni väljer."
+          },
+          "ticketTip": {
+            "eyebrow": "Bussalternativ",
+            "title": "Det finns också en offentlig bussväg från flygplatsen.",
+            "body": "Salzburgs flygplats listar Postbus 260 från flygplatsen mot Lofer och sedan buss 4012 vidare via St. Johann i. Tirol till Kitzbühel. Se det som ett reserv- eller utsiktsalternativ och kontrollera avgångarna noga, eftersom bussförbindelser kan gå mer sällan än tågen."
+          },
+          "connectionWatch": {
+            "eyebrow": "Byten",
+            "title": "Kontrollera korta byten innan ni bokar.",
+            "body": "Vissa förbindelser har mindre än 10 minuter mellan tågen. I Wörgl kan man behöva skynda till nästa tåg, särskilt med skidor eller stort bagage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flyg",
+            "title": "Lämna dagsljus och marginal för tågresan.",
+            "body": "Boka om möjligt ankomstflyg som landar före ungefär 15:00-16:00 och hemresor efter 14:00. Tågresan till eller från flygplatsen tar flera timmar, så marginal behövs för förseningar, bagage och flygplatsrutiner."
+          }
+        },
+        "innsbruck": {
+          "airportId": "innsbruck",
+          "airportName": "Innsbrucks flygplats",
+          "city": "INN",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Bästa huvudappen för Innsbruck till Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB är huvudappen för den kortaste tågresan. Kontrollera bussen eller transfern till Innsbruck Hbf innan ni väljer tåg."
+          },
+          "route": {
+            "title": "Innsbrucks flygplats -> Innsbruck Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Innsbrucks flygplats",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Airport"
+              },
+              {
+                "label": "Innsbruck Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Tågdelen byter ofta kring Wörgl, men vissa avgångar kan visa ett annat bytesmönster."
+          },
+          "ticketTip": {
+            "eyebrow": "Spara pengar",
+            "title": "Närmaste flygplats ger oftast minst krångel.",
+            "body": "Innsbruck är ofta enklast om flygtiderna passar. Kontrollera ändå att transfern till Hbf ger tillräckligt med tid med bagage."
+          },
+          "connectionWatch": {
+            "eyebrow": "Byten",
+            "title": "Kontrollera korta byten innan ni bokar.",
+            "body": "Vissa förbindelser har mindre än 10 minuter mellan tågen. I Wörgl kan man behöva skynda till nästa tåg, särskilt med skidor eller stort bagage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flyg",
+            "title": "Lämna dagsljus och marginal för tågresan.",
+            "body": "Boka om möjligt ankomstflyg som landar före ungefär 15:00-16:00 och hemresor efter 14:00. Tågresan till eller från flygplatsen tar flera timmar, så marginal behövs för förseningar, bagage och flygplatsrutiner."
+          }
+        },
+        "vienna": {
+          "airportId": "vienna",
+          "airportName": "Wiens flygplats",
+          "city": "VIE",
+          "apps": {
+            "primary": [
+              {
+                "name": "ÖBB",
+                "brand": "oebb",
+                "mark": "ÖBB",
+                "href": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
+                "purpose": "Bästa huvudappen för Wien till Kitzbühel."
+              }
+            ],
+            "secondary": [],
+            "note": "ÖBB är huvudappen för Railjet-sträckan västerut från Wiens flygplats eller Wien Hbf mot Tyrolen."
+          },
+          "route": {
+            "title": "Wiens flygplats -> Wien Hbf -> Wörgl -> Kitzbühel",
+            "stops": [
+              {
+                "label": "Wiens flygplats",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport"
+              },
+              {
+                "label": "Wien Hbf",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof"
+              },
+              {
+                "label": "Wörgl",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%C3%B6rgl%20Hauptbahnhof"
+              },
+              {
+                "label": "Kitzbühel",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kitzb%C3%BChel%20Bahnhof"
+              }
+            ],
+            "qualifier": "Räkna med en längre tågdag västerut, oftast på Railjet-sträckan med byte mot Kitzbühel runt Wörgl."
+          },
+          "ticketTip": {
+            "eyebrow": "Spara pengar",
+            "title": "Boka tidigt om Wien är bästa flygalternativet.",
+            "body": "Wien kan fungera bra när flygen passar bättre, men tågdagen är längre. Jämför tidiga avgångar och lämna mer marginal än för Innsbruck eller Salzburg."
+          },
+          "connectionWatch": {
+            "eyebrow": "Byten",
+            "title": "Kontrollera korta byten innan ni bokar.",
+            "body": "Vissa förbindelser har mindre än 10 minuter mellan tågen. I Wörgl kan man behöva skynda till nästa tåg, särskilt med skidor eller stort bagage."
+          },
+          "flightPlanning": {
+            "eyebrow": "Flyg",
+            "title": "Lämna dagsljus och marginal för tågresan.",
+            "body": "Boka om möjligt ankomstflyg som landar före ungefär 15:00-16:00 och hemresor efter 14:00. Tågresan till eller från flygplatsen tar flera timmar, så marginal behövs för förseningar, bagage och flygplatsrutiner."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemamap xmlns="https://specification.website/ns/schemamap">
+  <resource>
+    <loc>https://ez-kitz.vercel.app/</loc>
+    <schema>https://ez-kitz.vercel.app/guide.schema.jsonld</schema>
+  </resource>
+</schemamap>

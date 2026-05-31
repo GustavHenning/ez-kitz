@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kitzbühel rail guide">
+  <rect width="512" height="512" rx="96" fill="#244536"/>
+  <path d="M96 330h320l-46 64H142l-46-64Z" fill="#f6efe3"/>
+  <path d="M128 302c33-70 75-124 128-162 54 38 96 92 128 162H128Z" fill="#fffaf1"/>
+  <path d="M256 140v162" stroke="#a0492e" stroke-width="24" stroke-linecap="round"/>
+  <path d="M136 354h240" stroke="#c4883c" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="180" cy="394" r="20" fill="#173126"/>
+  <circle cx="332" cy="394" r="20" fill="#173126"/>
+</svg>

@@ -10,22 +10,22 @@ const seasonThemes: Record<Season, SeasonTheme> = {
   spring: {
     id: "spring",
     documentClass: "season-spring",
-    heroImage: "/assets/hero-kitz-spring.png",
+    heroImage: "/assets/hero-kitz-spring.webp",
   },
   summer: {
     id: "summer",
     documentClass: "season-summer",
-    heroImage: "/assets/hero-kitz-summer.png",
+    heroImage: "/assets/hero-kitz-summer.webp",
   },
   autumn: {
     id: "autumn",
     documentClass: "season-autumn",
-    heroImage: "/assets/hero-kitz-autumn.png",
+    heroImage: "/assets/hero-kitz-autumn.webp",
   },
   winter: {
     id: "winter",
     documentClass: "season-winter",
-    heroImage: "/assets/hero-kitz-winter.png",
+    heroImage: "/assets/hero-kitz-winter.webp",
   },
 };
 

@@ -1,0 +1,45 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://ez-kitz.vercel.app/",
+      "describedby": [
+        {
+          "href": "https://ez-kitz.vercel.app/llms.txt",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://ez-kitz.vercel.app/guide.md",
+          "type": "text/markdown"
+        }
+      ],
+      "alternate": [
+        {
+          "href": "https://ez-kitz.vercel.app/guide.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://ez-kitz.vercel.app/guide.schema.jsonld",
+          "type": "application/ld+json"
+        }
+      ],
+      "sitemap": [
+        {
+          "href": "https://ez-kitz.vercel.app/sitemap.xml",
+          "type": "application/xml"
+        }
+      ],
+      "security": [
+        {
+          "href": "https://ez-kitz.vercel.app/.well-known/security.txt",
+          "type": "text/plain"
+        }
+      ],
+      "agent-skills": [
+        {
+          "href": "https://ez-kitz.vercel.app/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

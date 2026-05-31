@@ -43,6 +43,7 @@ export type AirportGuide = {
 export type LocaleCopy = {
   locale: Locale;
   metaTitle: string;
+  metaDescription: string;
   heroTitle: string;
   heroKicker: string;
   heroBody: string;
@@ -57,7 +58,11 @@ export type LocaleCopy = {
   flightBlockTitle: string;
   officialApps: string;
   openApp: string;
+  skipLink: string;
   resetSelection: string;
+  privacyLink: string;
+  llmsLink: string;
+  guideDataLink: string;
   footerNote: string;
   airports: Record<AirportId, { name: string; city: string; teaser: string }>;
 };
@@ -77,6 +82,8 @@ const localeCopies: Record<Locale, LocaleCopy> = {
   en: {
     locale: "en",
     metaTitle: "Travel to Kitzbühel by train",
+    metaDescription:
+      "A compact rail guide for reaching Kitzbühel from Munich, Salzburg, Innsbruck, or Vienna airport.",
     heroTitle: "Train routes to Kitzbühel",
     heroKicker: "MUC · Salzburg · Innsbruck · Vienna",
     heroBody:
@@ -93,7 +100,11 @@ const localeCopies: Record<Locale, LocaleCopy> = {
     flightBlockTitle: "Before booking flights",
     officialApps: "Official app links",
     openApp: "Open",
+    skipLink: "Skip to main content",
     resetSelection: "Choose another airport",
+    privacyLink: "Privacy",
+    llmsLink: "llms.txt",
+    guideDataLink: "Guide data",
     footerNote:
       "Use this as orientation only. Always confirm current departures, fares, platforms, and ticket validity in DB Navigator or ÖBB before booking.",
     airports: {
@@ -122,6 +133,8 @@ const localeCopies: Record<Locale, LocaleCopy> = {
   de: {
     locale: "de",
     metaTitle: "Mit dem Zug nach Kitzbühel",
+    metaDescription:
+      "Ein kompakter Bahn-Guide nach Kitzbühel ab den Flughäfen München, Salzburg, Innsbruck und Wien.",
     heroTitle: "Zugrouten nach Kitzbühel",
     heroKicker: "MUC · Salzburg · Innsbruck · Wien",
     heroBody:
@@ -138,7 +151,11 @@ const localeCopies: Record<Locale, LocaleCopy> = {
     flightBlockTitle: "Vor der Flugbuchung",
     officialApps: "Offizielle App-Links",
     openApp: "Öffnen",
+    skipLink: "Zum Hauptinhalt springen",
     resetSelection: "Anderen Flughafen wählen",
+    privacyLink: "Datenschutz",
+    llmsLink: "llms.txt",
+    guideDataLink: "Guide-Daten",
     footerNote:
       "Nur zur Orientierung. Prüfe aktuelle Abfahrten, Preise, Bahnsteige und Ticketgültigkeit immer in DB Navigator oder ÖBB vor der Buchung.",
     airports: {
@@ -167,6 +184,8 @@ const localeCopies: Record<Locale, LocaleCopy> = {
   sv: {
     locale: "sv",
     metaTitle: "Tåg till Kitzbühel",
+    metaDescription:
+      "En kompakt tågguide till Kitzbühel från flygplatserna München, Salzburg, Innsbruck och Wien.",
     heroTitle: "Tågvägar till Kitzbühel",
     heroKicker: "MUC · Salzburg · Innsbruck · Wien",
     heroBody:
@@ -183,7 +202,11 @@ const localeCopies: Record<Locale, LocaleCopy> = {
     flightBlockTitle: "Innan ni bokar flyg",
     officialApps: "Officiella applänkar",
     openApp: "Öppna",
+    skipLink: "Hoppa till huvudinnehåll",
     resetSelection: "Välj annan flygplats",
+    privacyLink: "Integritet",
+    llmsLink: "llms.txt",
+    guideDataLink: "Guidedata",
     footerNote:
       "Använd detta som orientering. Kontrollera alltid aktuella avgångar, priser, perronger och biljettregler i DB Navigator eller ÖBB innan bokning.",
     airports: {

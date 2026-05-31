@@ -37,6 +37,7 @@ This is a Bun-managed Vite static site intended for later Vercel deployment.
 
 ```bash
 bun install
+bun run generate:public
 bun test
 bun run typecheck
 bun run build
@@ -44,3 +45,13 @@ bun run dev
 ```
 
 Vercel should use the repository's `vercel.json`: install with `bun install`, build with `bun run build`, and serve the generated `dist` directory.
+
+## Public specification surfaces
+
+The site publishes static discovery and compliance files generated from the same guide data as the UI:
+
+- `/robots.txt`, `/sitemap.xml`, `/llms.txt`, `/llms-full.txt`, `/guide.md`, `/guide.json`, and `/guide.schema.jsonld`
+- `/.well-known/api-catalog`, `/.well-known/security.txt`, and `/.well-known/agent-skills/index.json`
+- `/de/` and `/sv/` localized entry pages with translated metadata and reciprocal `hreflang`
+
+`bun run build` runs `bun run generate:public` first, so Vercel receives the generated locale pages, WebP assets, icons, and machine-readable files.

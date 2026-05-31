@@ -1,0 +1,18 @@
+# Kitzbühel rail guide
+
+> Compact rail guidance for reaching Kitzbühel from MUC, Salzburg, Innsbruck, and Vienna airports.
+
+The site is static, multilingual, and intentionally limited to app recommendations, route shapes, ticket caveats, connection warnings, and flight timing advice.
+
+## Core
+
+- [Guide page](https://ez-kitz.vercel.app/): Interactive airport selector.
+- [Markdown source](https://ez-kitz.vercel.app/guide.md): Full guide content without layout or JavaScript.
+- [Guide JSON](https://ez-kitz.vercel.app/guide.json): Structured airport, route, app, and advice data.
+- [Structured data](https://ez-kitz.vercel.app/guide.schema.jsonld): Schema.org JSON-LD graph.
+- [Sitemap](https://ez-kitz.vercel.app/sitemap.xml): Canonical public URLs.
+
+## Policies
+
+- [Privacy policy](https://ez-kitz.vercel.app/privacy/): Data-minimisation statement.
+- [Security contact](https://ez-kitz.vercel.app/.well-known/security.txt): Responsible disclosure contact.
